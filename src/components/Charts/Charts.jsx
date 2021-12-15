@@ -1,7 +1,7 @@
 import React, {useState , useEffect} from 'react';
 import { fetchDailyData } from '../../api';
 import {Line, Bar} from 'react-chartjs-2';
-import { CategoryScale } from 'chart.js/auto';
+import Chart from 'chart.js/auto'
 import './Charts.css';
 
 const Charts= ({data,country}) => {
@@ -57,6 +57,7 @@ const Charts= ({data,country}) => {
             />
         ):null
     );
+    console.log(Chart);
     return(
         <div className="container">
             {country?barChart:lineChart}
