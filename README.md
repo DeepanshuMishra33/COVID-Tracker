@@ -3,3 +3,6 @@ This Covid-19 tracker project collects data from covid api and displays the numb
 
 This is a ReactJs project which implements all fundamental concepts of react like hooks,lifecycle method and many more.
 In this project the data was fetched from api using Axios and the charts were displayed using Chart.js.
+
+To check website out go to the link below:
+https://covid19statstrack.netlify.app/
